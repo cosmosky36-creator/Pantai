@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.teks {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+* {
+    text-decoration: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1px;
+}
+
+.card-aqua {
+    border: solid 2px aqua;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card-aqua .judul-card {
+    border-bottom: solid 2px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.card-aqua .gambar img {
+    border-radius: 5px;
+    width: 100%;
+    border: solid 2px;
+    color: black;
+} 
+
+.card-red {
+    border: solid 2px red (255, 174, 0);
+    padding: 20px;
+    border-radius: 10px;
+}
+.card-salmon {
+    border: solid 2px salmon (33, 151, 151);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@media(min-width:1000px) {
+.grid {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.judul-card h2 {
+    font-size: 1.rem;
+}
+
+.card-aqua .gambar img {
+max-height: 50%;
+}
+}
